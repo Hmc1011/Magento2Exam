@@ -58,4 +58,10 @@ return $result;
 public function getAllowedMethods() {
 return ['shipme' => $this->getConfigData('name')];
 }
+
+public function isTrackingAvailable() {
+    return true;
+    }
+
+
 }
