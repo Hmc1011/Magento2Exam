@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<body>
+		<referenceBlock name="footer_links">
+			<block class="Magento\Framework\View\Element\Html\Link\Current" name="helloworld-link">
+				<arguments>
+					<argument name="label" translate="true" xsi:type="string">
+						Helloworld
+						landing
+					</argument>
+					<argument name="path" xsi:type="string">
+						helloworld/
+						index/index
+					</argument>
+				</arguments>
+			</block>
+			<block name="ABCDEF" class="Magento\Theme\Block\Html\Footer" template="Packt_HelloWorld::copyright.phtml" >
+			</block>
+		</referenceBlock>
+		<!-- <referenceContainer name="footer-container"> -->
+			<!-- <container name="footer" as="footer" label="Page Footer" htmlTag="div" htmlClass="footer content"> -->
+				
+				<referenceBlock class="Magento\Theme\Block\Html\Footer" name="copyright" template="Packt_HelloWorld::copyright.phtml" />
+				<!-- <referenceBlock class="Magento\Cms\Block\Widget\Block" template="Packt_HelloWorld::copyright.phtml" > </referenceBlock> -->
+			<!-- </container> -->
+		<!-- </referenceContainer> -->
+	</body>
+</page>
