@@ -322,6 +322,7 @@ return [
         'Klarna_KpGraphQl' => 1,
         'Packt_CustomerAttribute' => 1,
         'Packt_HelloWorld' => 1,
+        'Packt_ProductSlider' => 1,
         'Packt_SEO' => 1,
         'Packt_Shipme' => 1,
         'PayPal_Braintree' => 1,

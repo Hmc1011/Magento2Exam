@@ -11,6 +11,7 @@ atlassian*
 /.gitattributes
 
 # Magento specific configuration
+/generated/code
 /app/.htaccess
 /app/bootstrap.php
 /app/autoload.php
