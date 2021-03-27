@@ -25,5 +25,13 @@ class Index extends \Magento\Framework\App\Action\Action
 	{
 		 $subscription = $this->objectManager->create("Packt\HelloWorld\Model\Subscription");
 		//  var_dump($subscription);
+		for ($i=0; $i <3; $i++) 
+		{
+			\Magento\Framework\Profiler::start('HOANGCONG1111');
+			sleep(1);
+			echo "Hoangcong";
+		\Magento\Framework\Profiler::stop('HOANGCONG1111');
+		}
+
 	}
 }
